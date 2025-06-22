@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fay Alabri – Digital CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #4a90e2;
+        }
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fay Khalid Alabri – Digital CV</h1>
+    <p>Hello and welcome! My name is Fay Khalid Alabri, an IT graduate with honors, passionate about education, creativity, and technology. 
+    I created this page to share my CV with you. Feel free to download it below.</p>
+    <p><a href="Fay Alabri.pdf" download>📎 Download My CV (PDF)</a></p>
+</body>
+</html>
+"""
+
+# Save the HTML file
+simple_file_path = "/mnt/data/fay-digital-cv-simple.html"
+with open(simple_file_path, "w") as f:
+    f.write(html_simple)
+
+simple_file_path
